@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden; /* or auto */
+    color: rgb(231, 37, 37);
+}
+
+nav {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(237, 229, 227, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+    margin-left: 70px;
+    margin-right: 355px;
+    padding: 1px;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+li {
+    margin: 0 23px;
+}
+
+li a {
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logn {
+    border-radius: 9px;
+    padding: 7px 11px;
+    background-color: rgb(231, 37, 37);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 85px); /* Adjust based on the height of the nav */
+    background-color: black; /* Transparent background */
+   
+}
+
+.sep {
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+
+.sep1 {
+    flex: 1;
+    padding: 80px;
+    background-color:black;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Optional: Add a border for visual separation */
+
+}
+
+.head1 {
+    font-size: 31px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.head2 {
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    margin-bottom: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(16, 15, 15);
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.contact-form button {
+    margin-top: 30px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: rgb(231, 37, 37);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact-form button:hover{
+background-color: rgb(200, 30, 30);
+}
+.para2 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.option {
+    text-decoration: none;
+    color: white;
+}
+
+.option:hover {
+    text-decoration: underline;
+}
+
+.sep2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.1); /* Optional: Add a border for visual separation */
+
+}
+
+.sep2 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sep2 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+hr {
+    width: 50%;
+    margin: 27px auto;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+#move5 {
+    position: relative;
+    margin-bottom: 50px;
+    line-height: 1.5px;
+}
+#move5 button{
+       padding: 10px 20px;
+    background-color: rgb(231, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 53px;
+}
+#move5 button:hover{
+    text-decoration: underline;
+}
+.m6 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.m7 {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.m8 {
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    margin-bottom: 15px;
+}
+footer {
+    
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+       
+    }
+ 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    position: relative;
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin: 10px 85px;
+text-align:start ;}
+
+.footer-section a {
+    color: white;
+    display: inline-block;
+    margin: 18px 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(48, 43, 43);
+}
+
+.newsletter-form button {
+    padding: 10px 15px;
+    background-color: rgb(231, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.newsletter-form button:hover {
+    background-color: rgb(200, 30, 30);
+}
+
+.footer-bottom {
+    margin-top: 1px;
+    padding-top: 2px;
+}
+
+.footer-section hr{
+    background-color: rgb(231, 37, 37);
+    max-width: 53px;
+    margin: 8px 150px; /* Adjust margin to position it */
+    margin-bottom: 20px;
+}
+.footer-section p i {
+    color: rgb(231, 37, 37); /* Change the color to red */
+    
+}
+
+   
+   
